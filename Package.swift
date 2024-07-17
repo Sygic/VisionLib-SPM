@@ -6,18 +6,18 @@ import PackageDescription
 let package = Package(
     name: "VisionLib",
     platforms: [
-        .iOS(.v11)
+        .iOS(.v12)
     ],
     products: [
         .library(
             name: "VisionLib",
             targets: ["VisionLib"]),
     ],
-    dependencies: [.package(url: "https://github.com/jurajantas/SygicAuth", from: "1.3.1")],
+    dependencies: [.package(url: "https://github.com/Sygic/SygicAuth-SPM", from: "1.3.1")],
     targets: [
         .binaryTarget(
             name: "VisionLib",
-            url: "https://public.repo.sygic.com/repository/maven-sygic-releases/com/sygic/adas/vision/1.2.21/vision-1.2.21-lite.zip",
-            checksum: "a7b0d1b4ef8138121c938bad52a5f8febb8fd30350ce1aef41ed263b68a981b7")
+            url: "https://public.repo.sygic.com/repository/maven-sygic-releases/com/sygic/adas/vision/1.2.22/vision-1.2.22-lite.zip",
+            checksum: "992cb7d8296d29743a9243a68b9ab7f2189dc2dc05effd15de4aa0b5149b445f")
     ]
 )
