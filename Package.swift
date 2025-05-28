@@ -17,7 +17,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "VisionLib",
-            url: "https://public.repo.sygic.com/repository/maven-sygic-releases/com/sygic/adas/vision/1.2.23/vision-1.2.23.zip",
-            checksum: "ae03b1572e859622e2e374c562928bf2b6f74ab046b35a2aae86f342d5dabdad")
+            url: "https://public.repo.sygic.com/repository/maven-sygic-releases/com/sygic/adas/vision/1.2.23/vision-1.2.23-lite.zip",
+            checksum: "47c4991060cb317f5f163578c9372c40423fc55cd6d079b45e17aa78826393ab")
     ]
 )
